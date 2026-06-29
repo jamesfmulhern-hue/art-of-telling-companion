@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Future Courses | The Art of Telling Companion</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Italiana&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="site-header"></div>
+
+<section class="session-hero">
+  <div class="container center">
+    <span class="eyebrow">A Question for You</span>
+    <h1 style="font-family: var(--display); font-style: italic;">What Should I Teach Next?</h1>
+    <p class="session-meta">If there is to be a next, I would like you to choose it</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="prose">
+      <p class="lede">I would happily teach again. I have, in fact, been making lists for months in the margins of my own books. If you would like me to offer another salon — for residents of 2601 or anyone else who would like to come on a Sunday afternoon — please tell me. Below are the ones I am most ready to teach. There is also room to suggest something I have not thought of. I will read every response.</p>
+    </div>
+
+    <form action="mailto:jamesfmulhern@gmail.com" method="post" enctype="text/plain" class="narrow" style="margin-top: var(--space-12);">
+      <fieldset>
+        <legend>Courses I am ready to teach</legend>
+        <p style="font-size: var(--text-sm); color: var(--muted); margin-bottom: var(--space-4);">Check any number — every check is a vote.</p>
+        <div class="checkboxes">
+          <label><input type="checkbox" name="course[]" value="Chekhov Intensive"> A Chekhov Intensive — six stories, six Sundays</label>
+          <label><input type="checkbox" name="course[]" value="Flannery O'Connor"> Flannery O’Connor &amp; the Southern Grotesque</label>
+          <label><input type="checkbox" name="course[]" value="Hemingway Stories"> Hemingway: The Complete Short Stories</label>
+          <label><input type="checkbox" name="course[]" value="Memoir Intensive"> The Memoir Intensive — write a memoir in twelve Sundays</label>
+          <label><input type="checkbox" name="course[]" value="Women's Literature"> Women’s Literature Through the Ages</label>
+          <label><input type="checkbox" name="course[]" value="Poetry Workshop"> A Poetry Workshop — your work, each Sunday</label>
+          <label><input type="checkbox" name="course[]" value="Great Short Stories"> The Great Short Stories (extended) — 20 sessions</label>
+          <label><input type="checkbox" name="course[]" value="Irish Literature"> Irish Literature: Joyce, Heaney, McGahern, Toibín</label>
+          <label><input type="checkbox" name="course[]" value="American Modernism"> American Modernism — Stein to Faulkner</label>
+          <label><input type="checkbox" name="course[]" value="Creative Nonfiction"> Creative Nonfiction: The Essay as Art</label>
+          <label><input type="checkbox" name="course[]" value="Reading Closely"> Reading Closely — a course in literary attention</label>
+          <label><input type="checkbox" name="course[]" value="Beginning Writers"> First Pages: A Workshop for Beginning Writers</label>
+        </div>
+      </fieldset>
+
+      <div class="form-group">
+        <label for="other">Or — a course I have not listed</label>
+        <textarea id="other" name="other" placeholder="Tell me what you would most like to read together on Sunday afternoons."></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="schedule">When would suit you?</label>
+        <select id="schedule" name="schedule">
+          <option value="">Choose one</option>
+          <option value="autumn-2026">Autumn 2026 (Sept – Nov)</option>
+          <option value="winter-2027">Winter 2026–2027 (Jan – Mar)</option>
+          <option value="spring-2027">Spring 2027 (Apr – Jun)</option>
+          <option value="any">Any of the above</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="note">Anything else you would like to say</label>
+        <textarea id="note" name="note" placeholder="A memory from class, a question, a request, a thank-you."></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="name">Your name (optional)</label>
+        <input type="text" id="name" name="name">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Your email (optional, if you want a reply)</label>
+        <input type="email" id="email" name="email">
+      </div>
+
+      <div class="center" style="margin-top: var(--space-8);">
+        <button type="submit" class="btn btn--gold">Send to James</button>
+      </div>
+
+      <p style="font-size: var(--text-xs); color: var(--muted); margin-top: var(--space-6); text-align: center;">
+        This form opens your email program with the message pre-filled. If that does not work, please write to <a href="mailto:jamesfmulhern@gmail.com">jamesfmulhern@gmail.com</a> directly.
+      </p>
+    </form>
+  </div>
+</section>
+
+<section class="sunburst-bg" style="background: var(--midnight); color: var(--ivory); margin-top: var(--space-16);">
+  <div class="container">
+    <div class="prose center">
+      <span class="eyebrow" style="color: var(--gold-bright);">A Final Note</span>
+      <h2 style="color: var(--ivory);">With My Thanks</h2>
+      <p style="color: rgba(245,239,224,0.9); font-size: var(--text-lg); font-style: italic; font-family: var(--display);">
+        I enjoyed meeting every one of you. I am grateful for what you shared — the pages, the ideas, the silences, the laughter, the small kindnesses on the way out the door. The course was richer for your presence than my notes would have suggested it could be. Whatever you take from this companion volume, please take that, too.
+      </p>
+      <p style="font-family: var(--display); font-style: italic; font-size: var(--text-xl); color: var(--gold-bright); margin-top: var(--space-8);">— James</p>
+    </div>
+  </div>
+</section>
+
+<div id="site-footer"></div>
+<script src="js/site.js"></script>
+</body>
+</html>
