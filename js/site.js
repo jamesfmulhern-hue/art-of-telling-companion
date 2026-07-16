@@ -1,5 +1,6 @@
 const NAV_ITEMS = [
   { href: "index.html",         label: "Home" },
+  { href: "philosophy-of-writing.html", label: "Philosophy" },
   { href: "unit-1-short-story.html", label: "Short Story" },
   { href: "unit-2-poetry.html",      label: "Poetry" },
   { href: "unit-3-memoir.html",      label: "Memoir" },
