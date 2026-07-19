@@ -47,7 +47,7 @@ function renderFooter() {
       <div class="footer-grid">
         <div>
           <h5>The Art of Telling</h5>
-          <p style="font-family: var(--display); font-style: italic; color: rgba(245,239,224,0.85);">A free creative-writing salon for residents of 2601, led by James F. Mulhern. Three genres, ten Sundays, one shared room.</p>
+          <p style="font-family: var(--display); font-style: italic; color: rgba(245,239,224,0.85);">A creative-writing salon led by James F. Mulhern. Three genres — short story, poetry, memoir. Ten sessions, in person or on Zoom.</p>
         </div>
         <div>
           <h5>Course</h5>
@@ -74,13 +74,16 @@ function renderFooter() {
           <ul>
             <li><a href="future.html">Suggest a future course</a></li>
             <li><a href="mailto:jamesfmulhern@gmail.com">jamesfmulhern@gmail.com</a></li>
-            <li>Silver Current Press</li>
-            <li>2601 Literary Salon</li>
+            <li><a href="https://silvercurrentpress.com">Silver Current Press</a></li>
+            <li><a href="https://salon.silvercurrentpress.com">The 2601 Salon — full course catalog</a></li>
           </ul>
         </div>
       </div>
       <div class="footer-bottom">
-        ◆ &nbsp; With gratitude &mdash; James F. Mulhern &nbsp; ◆ &nbsp; Spring &amp; Summer 2026 &nbsp; ◆
+        ◆ &nbsp; James F. Mulhern &nbsp; ◆ &nbsp; Silver Current Press · Philadelphia &nbsp; ◆
+      </div>
+      <div class="footer-bottom" style="margin-top:14px;padding-top:14px;border-top:1px solid rgba(245,239,224,0.14);font-size:0.88em;">
+        Part of <a href="https://salon.silvercurrentpress.com" style="color:rgba(245,239,224,0.85);border-bottom:1px dotted rgba(245,239,224,0.4);">The 2601 Salon</a> — the working catalog of literary courses taught by James F. Mulhern. Program directors and venue partners: <a href="https://salon.silvercurrentpress.com/partners.html" style="color:rgba(245,239,224,0.85);border-bottom:1px dotted rgba(245,239,224,0.4);">bring a course to your community</a>.
       </div>
     </div>
   </footer>`;
